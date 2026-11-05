@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dff8f3" />
+    <meta name="description" content="Sippy keeps your Discord server hydrated, one friendly reminder at a time." />
+    <title>Sippy — Stay hydrated, together</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Sippy home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span class="brand-name">sippy</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#commands">Commands</a>
+          <a href="#setup">Setup</a>
+        </nav>
+        <div class="top-actions">
+          <a class="login-link" href="#demo">Live demo</a>
+          <button class="button button-small button-primary" data-open-modal="true">Add to Discord <span aria-hidden="true">↗</span></button>
+        </div>
+        <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-sparkle sparkle-one">✦</div>
+          <div class="hero-sparkle sparkle-two">✦</div>
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> a little reminder from a good friend</div>
+            <h1 id="hero-title">Stay hydrated,<br /><em>together.</em></h1>
+            <p>Sippy is the friendly Discord bot that keeps your server refreshed, one sip and one streak at a time.</p>
+            <div class="hero-actions">
+              <button class="button button-primary button-large" data-open-modal="true">Add Sippy to your server <span aria-hidden="true">↗</span></button>
+              <button class="button button-dark button-large" data-open-modal="true">Add to Slack <span aria-hidden="true">↗</span></button>
+              <a class="text-link" href="#demo">See how it works <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="trust-line"><span class="avatar-stack"><span class="mini-avatar coral">M</span><span class="mini-avatar yellow">J</span><span class="mini-avatar blue">S</span><span class="mini-avatar mint">+</span></span><span>Already keeping <strong>2,400+</strong> servers refreshed</span></div>
+          </div>
+          <div class="hero-art" aria-label="A cheerful water droplet mascot holding a glass">
+            <div class="sun-rays"></div>
+            <div class="cloud cloud-left"></div><div class="cloud cloud-right"></div>
+            <div class="mascot-shadow"></div>
+            <div class="mascot">
+              <div class="droplet-shine"></div>
+              <div class="face"><span class="eye eye-left"></span><span class="eye eye-right"></span><span class="cheek cheek-left"></span><span class="cheek cheek-right"></span><span class="smile"></span></div>
+              <div class="mascot-arm arm-left"></div><div class="mascot-arm arm-right"><span class="hand">✦</span></div>
+              <div class="glass"><span class="glass-water"></span><span class="glass-shine"></span></div>
+              <div class="leg leg-left"></div><div class="leg leg-right"></div>
+            </div>
+            <span class="art-caption">your server's<br /><strong>hydration buddy</strong></span>
+          </div>
+        </section>
+
+        <section class="section intro-section" id="features" aria-labelledby="feature-title">
+          <div class="section-heading"><div><span class="section-kicker">small habits, big difference</span><h2 id="feature-title">A happier server<br /><span>starts with a sip.</span></h2></div><p>Sippy makes staying hydrated feel less like a chore and more like something your whole crew does together.</p></div>
+          <div class="feature-grid">
+            <article class="feature-card reminder-card"><div class="card-icon icon-blue">✦</div><span class="card-label">Friendly reminders</span><h3>“Time for a sip!”</h3><p>Gentle, customizable nudges land right in your hydration channel. No nagging, just good vibes.</p><div class="message-pill"><span class="tiny-droplet">⌄</span><span><strong>Sippy</strong> <small>BOT</small><br />Your body called. It says: water?</span></div></article>
+            <article class="feature-card streak-card"><div class="card-icon icon-yellow">✧</div><span class="card-label">Team streaks</span><h3>Make it a group thing.</h3><p>Keep your server motivated with shared streaks, weekly goals, and a little friendly competition.</p><div class="streak-row"><span class="streak-fire">✦</span><div><strong>Hydration streak</strong><br /><span>Everyone's on a roll</span></div><b>12 <small>days</small></b></div></article>
+            <article class="feature-card command-card"><div class="card-icon icon-coral">⌘</div><span class="card-label">Simple commands</span><h3>Fits right into chat.</h3><p>Log a glass, check your streak, or cheer someone on without leaving the conversation.</p><div class="command-line"><span>/</span> sip <i>Log a glass of water</i></div></article>
+          </div>
+        </section>
+
+        <section class="demo-section section" id="demo" aria-labelledby="demo-title">
+          <div class="demo-copy"><span class="section-kicker">see it in action</span><h2 id="demo-title">The nicest<br /><span>notification</span> you'll get today.</h2><p>Sippy lives in the flow of your server, so taking care of yourself feels as natural as sending a message.</p><div class="demo-checks"><div><span>✓</span> No complicated dashboards</div><div><span>✓</span> No guilt trips, ever</div><div><span>✓</span> Just tiny wins together</div></div><button class="button button-dark" data-open-modal="true">Join the demo server <span aria-hidden="true">↗</span></button></div>
+          <div class="chat-window" role="region" aria-label="Sippy chat demonstration"><div class="chat-header"><div class="channel-icon">#</div><div><strong>hydration-station</strong><small>Keep the good habits flowing</small></div><span class="online-dot"></span></div><div class="chat-body"><div class="chat-date"><span></span> Today <span></span></div><div class="chat-message sippy-message"><div class="chat-avatar mascot-avatar">⌄</div><div><div class="message-meta"><strong>Sippy</strong><small>BOT</small><time>10:04 AM</time></div><div class="bubble">Hey <strong>@everyone</strong>! A little water break never hurt anyone. <span class="wave">✦</span><br /><span class="muted-message">Grab a glass and keep your streak going.</span></div><div class="reaction">⌄ <b>18</b></div></div></div><div class="chat-message user-message"><div class="chat-avatar user-avatar">M</div><div><div class="message-meta"><strong>Mia</strong><time>10:05 AM</time></div><div class="bubble">/sip</div></div></div><div class="chat-message sippy-message last-message"><div class="chat-avatar mascot-avatar">⌄</div><div><div class="message-meta"><strong>Sippy</strong><small>BOT</small><time>10:05 AM</time></div><div class="bubble success-bubble">Glass logged! You're on a <strong>5 day streak</strong>. Keep flowing! <span aria-hidden="true">✧</span></div><div class="reaction">✦ <b>7</b></div></div></div></div><div class="chat-input"><span>Message #hydration-station</span><span>＋</span></div></div>
+        </section>
+
+        <section class="section commands-section" id="commands" aria-labelledby="commands-title"><div class="section-heading"><div><span class="section-kicker">everything you need</span><h2 id="commands-title">Say hello to<br /><span>your new routine.</span></h2></div><p>Easy commands that feel like a conversation. Start small, build a streak, and celebrate the little wins.</p></div><div class="commands-list"><div class="command-item"><span class="command-number">01</span><code>/sip</code><div><strong>Log your water</strong><p>Tell Sippy you had a glass and watch your streak grow.</p></div><span class="command-arrow">↗</span></div><div class="command-item"><span class="command-number">02</span><code>/streak</code><div><strong>Check your progress</strong><p>See your personal or server-wide hydration streak.</p></div><span class="command-arrow">↗</span></div><div class="command-item"><span class="command-number">03</span><code>/cheer</code><div><strong>Celebrate a friend</strong><p>Send a little encouragement to someone on a roll.</p></div><span class="command-arrow">↗</span></div></div></section>
+
+        <section class="setup-section section" id="setup" aria-labelledby="setup-title"><div class="setup-card"><div class="setup-art"><div class="setup-orbit orbit-one"></div><div class="setup-orbit orbit-two"></div><div class="setup-droplet">⌄</div><span class="orbit-dot dot-one"></span><span class="orbit-dot dot-two"></span><span class="orbit-dot dot-three"></span></div><div class="setup-content"><span class="section-kicker">ready when you are</span><h2 id="setup-title">A fresh start is<br /><span>three steps away.</span></h2><p>Invite Sippy to your server, choose a channel, and let the good habits begin.</p><div class="steps"><div><span>1</span><strong>Invite Sippy</strong><small>Add your new hydration buddy to Discord.</small></div><div><span>2</span><strong>Pick a channel</strong><small>Choose where reminders should pop up.</small></div><div><span>3</span><strong>Take your first sip</strong><small>Type <code>/sip</code> and you're off.</small></div></div><div class="setup-actions"><button class="button button-primary" data-open-modal="true">Get started for free <span aria-hidden="true">↗</span></button><button class="button button-dark" data-open-modal="true">Add to Slack <span aria-hidden="true">↗</span></button></div></div></div></section>
+      </main>
+
+      <footer class="footer"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><span></span></span><span class="brand-name">sippy</span></a><span>Made for better breaks and brighter servers.</span><div class="footer-links"><a href="#commands">Commands</a><a href="#setup">Setup guide</a><a href="#demo">Demo server</a></div><span class="copyright">© 2025 Sippy</span></footer>
+    </div>
+    <div class="modal-backdrop" aria-hidden="true"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" aria-label="Close">×</button><div class="modal-mascot">⌄</div><span class="section-kicker">one tiny step</span><h2 id="modal-title">Sippy is ready<br /><span>to meet your server.</span></h2><p>This demo is ready to connect. In your live bot, this button opens your Discord or Slack invite link.</p><button class="button button-primary button-full modal-action">Copy invite placeholder</button><span class="modal-note">No account needed · Free forever</span></div></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
