@@ -58,7 +58,7 @@ No license has been chosen yet. All rights are reserved by the author until one 
 
 ## Built with
 
-This is created with bolt.ai
+This is created with bolt.ai 
 
 ## Preview
 ![1000003753](https://github.com/user-attachments/assets/fd6ed652-fc13-4d21-bc36-dae7844e6fa8)
